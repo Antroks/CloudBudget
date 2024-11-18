@@ -1,7 +1,13 @@
-*, *::before, *::after {
+html {
     box-sizing: border-box;
 }
 
-body {
+*, *::after, *::before {
     box-sizing: inherit;
 }
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
