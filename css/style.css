@@ -28,20 +28,22 @@ body {
     background-repeat: no-repeat;
     height: 782px;
     position: relative;
-    background: linear-gradient(45deg, rgb(213, 32, 71, 0.8), rgb(238, 61, 27, 0.8));
+    z-index: -2;
 }
 
 .header-bg {
     height: 782px;
     width: 100%;
     position: absolute;
-    
-    z-index: 1;
+    background: linear-gradient(45deg, rgb(213, 32, 71, 0.8), rgb(238, 61, 27, 0.8));
+    z-index: -1;
+
     
 }
+   
 
 .header__flex {
-   
+    
 }
 .header__title {
 }
