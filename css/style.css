@@ -6,8 +6,50 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
   }
+
+.container {
+    max-width: 1107px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 782px;
+    position: relative;
+    background: linear-gradient(45deg, rgb(213, 32, 71, 0.8), rgb(238, 61, 27, 0.8));
+}
+
+.header-bg {
+    height: 782px;
+    width: 100%;
+    position: absolute;
+    
+    z-index: 1;
+    
+}
+
+.header__flex {
+   
+}
+.header__title {
+}
+.text-h1 {
+}
+.header-text {
+}
+.btn {
+}
+.header-btn {
+}
