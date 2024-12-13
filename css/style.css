@@ -24,21 +24,21 @@ body {
 
 .header {
     font-family: "Roboto", sans-serif;
-    padding-top: 41px;
     background-image: url(../img/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 782px;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
 
 .header-bg {
     height: 782px;
+    padding-top: 41px;
     width: 100%;
     position: absolute;
     background: linear-gradient(45deg, rgb(213, 32, 71, 0.8), rgb(238, 61, 27, 0.8));
-    z-index: -1;
+    z-index: 2;
     top: 0px;
 
     
@@ -50,6 +50,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 157px;
+
     
 }
 
@@ -82,6 +83,13 @@ body {
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header-menu a:hover {
+    color: #fd3030;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .btn {
@@ -92,12 +100,14 @@ body {
     color: #fff;
     padding: 10px 31px;
     margin-top: 2px;
+    cursor: pointer;
 }
 
-
-.header__title {
+.btn:hover {
+    border: 1px solid #fd3030;
+    color: #fd3030;
+    transition: 0.3s ease-in-out;
 }
-
 
 .text-h1 {
     font-size: 72px;
@@ -128,4 +138,11 @@ body {
     font-size: 14px;
     margin: 0 auto;
     background-color: #fff;
+}
+
+.title-btn:hover {
+    cursor: pointer;
+    background-color: #fd3030;
+    color: #fff;
+    transition: 0.3s ease-in-out;
 }
