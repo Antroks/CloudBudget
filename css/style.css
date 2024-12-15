@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .roboto-thin {
@@ -145,4 +146,38 @@ body {
     background-color: #fd3030;
     color: #fff;
     transition: 0.3s ease-in-out;
+}
+
+
+.app {
+    padding-top: 94px;
+    padding-bottom: 95px;
+}
+.app__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.app__flex-item {
+}
+.text-h2 {
+    font-size: 36px;
+    font-weight: 500;
+    width: 445px;
+    margin-bottom: 46px;
+}
+.text-p {
+    font-size: 14px;
+    line-height: 140%;
+    width: 445px;
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.btn-app {
+    font-size: 14px;
+    color: #ed4C5C;
+    text-decoration: none;
+}
+.app-img {
+    margin-right: 95px;
 }
