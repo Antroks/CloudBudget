@@ -23,6 +23,8 @@ body {
     margin: 0 auto;
 }
 
+/*************************************** Header block ***************************************/
+
 .header {
     font-family: "Roboto", sans-serif;
     background-image: url(../img/bg.png);
@@ -183,6 +185,8 @@ body {
     margin-right: 95px;
 }
 
+/*************************************** Opportunities block ***************************************/
+
 .opportunities {
     padding-top: 58px;
     padding-bottom: 229px;
@@ -254,4 +258,63 @@ body {
     font-weight: 400;
     text-decoration: none;
 }
+
+/*************************************** Tech block ***************************************/
+.tech {
+    padding-top: 58px;
+    padding-bottom: 115px;
+}
+.tech .text-h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 63px;
+}
+.tech__flex {
+    display: flex;
+    justify-content: center;
+    gap: 168px;
+}
+.tech__flex-item {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.tech-number {
+    font-family: "Lato", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #101010;
+    opacity: 8%;
+}
+.tech-text {
+    position: absolute;
+    top: 62px;
+    left: -53px;
+
+}
+.tech-img {
+    margin-bottom: 16px;
+    
+}
+
+.tech__flex-item:first-child .tech-img {
+   
+    margin-bottom: 2px;
+}
+
+.tech__flex-item:nth-child(2) .tech-img {
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.tech .text-h3 {
+    margin: 0;
+    margin-bottom: 11px;
+    
+}
+.tech .text-p {
+    margin: 0;
+    max-width: 220px;
+    text-align: center;
+}
+
 
