@@ -389,6 +389,69 @@ body {
     margin-right: 20px;
 } 
 
+.feedback {
+    padding-top: 159px;
+    padding-bottom: 123px;
+}
+.feedback__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.feedback__flex-item {
+}
+.feedback__flex .text-h2 {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+.feedback__flex .text-p {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 540px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #333333;
+    font-size: 16px;
+    padding: 21px 31px;
+    margin-bottom: 24px;
+    outline: none;
+}
+
+
+
+input::placeholder {
+    color: rgb(19, 39, 67, 50%);
+}
+
+input:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    }
+
+.name {
+    
+}
+.phone {
+}
+.title-btn {
+}
+.feedback-btn {
+    background-color: #ED4C5C;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+
+}
+
+
 
 
 
